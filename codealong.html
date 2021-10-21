@@ -19,15 +19,18 @@
         
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-<!--         <script src="script.js"></script> -->
+        <!--<script src="script.js"></script> -->
         <script>
             // JS
             
             function greet() {
-                document.write("Nice to meet you!<br>");
+              document.write("Nice to meet you, " + name + "!<br>");
             }
 
+            var name = "Alice";
             greet();
+            
+            name = "Bob";
             greet();
             
         </script>
